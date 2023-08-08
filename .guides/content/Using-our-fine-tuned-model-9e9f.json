@@ -1,0 +1,23 @@
+{
+	"id": "9e9f065f-1274-77fb-3545-f882a6458da6",
+	"title": "Using our fine-tuned model",
+	"files": [
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "tester.py",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

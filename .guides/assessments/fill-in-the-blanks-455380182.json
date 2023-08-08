@@ -1,0 +1,63 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-455380182",
+	"source": {
+		"name": "Expected format of the fine-tune",
+		"showName": false,
+		"instructions": "**To train GPT-3, what is the expected format of the fine-tune dataset that you provide, and what columns or keys must each row in the dataset contain?**",
+		"showValues": true,
+		"text": "The expected format of the fine-tune dataset is a <<<JSONL>>> file, and each row in the dataset must contain a \"prompt\" column/key and a <<<completion>>> column/key.",
+		"distractors": "csv\nSampleData",
+		"guidance": "The expected format of the fine-tune dataset is a JSONL file, and each row in the dataset must contain a \"prompt\" column/key and a \"completion\" column/key.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"SampleData.csv"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "SampleData.csv"
+				},
+				{
+					"type": "terminal",
+					"content": ""
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"tokens": {
+			"blank": [
+				"JSONL",
+				"completion"
+			],
+			"text": [
+				"The expected format of the fine-tune dataset is a ",
+				0,
+				" file, and each row in the dataset must contain a \"prompt\" column/key and a ",
+				0,
+				" column/key."
+			],
+			"regexPositions": []
+		}
+	}
+}

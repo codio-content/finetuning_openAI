@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#terminal: ",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"id": "063e9d4e-9998-8e84-15f7-956f0ed0960e",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Fine-Tuning",
+	"type": "page",
+	"layout": "2-panels"
+}

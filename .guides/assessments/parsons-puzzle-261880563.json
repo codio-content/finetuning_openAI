@@ -1,0 +1,34 @@
+{
+	"type": "parsons-puzzle",
+	"taskId": "parsons-puzzle-261880563",
+	"source": {
+		"name": "File OpenAI",
+		"showName": true,
+		"instructions": "Rearrange the code blocks below to \n1. upload your file\n1. list your file \n\nSince this is Python code please make sure to use indentation. ",
+		"initial": "import os\nimport openai\nopenai.api_key = os.getenv(&quot;OPENAI_API_KEY&quot;)\nwith open(&quot;my_file.jsonl&quot;, &quot;rb&quot;) as f:\n    openai.File.create(\n        file=f,\n        purpose=&quot;fine-tune&quot;\n    )\nfiles = openai.File.list()\nprint(files)",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true}",
+		"grader": "1",
+		"guidance": "Per convention it is expected to have the libraries up and running first. Then the learned is instructed to upload and then list their files.\n\nThe following lines open a file in binary mode (rb) and create a new file resource in OpenAI's system using the `openai.File.create` method. This uploaded file will be used to fine-tune an OpenAI model.\n```python\nwith open(\"my_file.jsonl\", \"rb\") as f:\n    openai.File.create(\n        file=f,\n        purpose=\"fine-tune\"\n    )\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			],
+			"files": [
+				"file.py",
+				"my_document.txt"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

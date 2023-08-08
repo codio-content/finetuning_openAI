@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "SampleData.csv",
+			"panel": 0,
+			"action": "open"
+		}
+	],
+	"id": "e06cebbd-ca84-094b-d060-baced15ca073",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Preparing training ",
+	"type": "page"
+}

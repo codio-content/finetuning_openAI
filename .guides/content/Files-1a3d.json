@@ -1,0 +1,25 @@
+{
+	"id": "1a3d4508-6990-7a81-7ea0-55a540448fb6",
+	"title": "Files",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "file.py",
+			"action": "open"
+		},
+		{
+			"path": "my_document.txt",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

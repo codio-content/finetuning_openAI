@@ -1,0 +1,66 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-1528262106",
+	"source": {
+		"name": "Using our fine-tune model",
+		"showName": false,
+		"instructions": "**Fill in the blank with the right symbol to make the statement true.**",
+		"showValues": true,
+		"text": "Remember that the prompt has to end with the indicator string <<< -> >>> for the model to start generating completions.",
+		"distractors": "==\n=>\n--\n=",
+		"guidance": "Keep in mind, after fine-tuning a model, ensure that your prompt concludes with the signal string `->`. This is necessary for triggering the model to commence completion generation, as opposed to extending the prompt further.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"SampleData.csv",
+				"tester.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "SampleData.csv"
+				},
+				{
+					"type": "file",
+					"content": "tester.py"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"tokens": {
+			"blank": [
+				"->"
+			],
+			"text": [
+				"Remember that the prompt has to end with the indicator string ",
+				0,
+				" for the model to start generating completions."
+			],
+			"regexPositions": []
+		}
+	}
+}

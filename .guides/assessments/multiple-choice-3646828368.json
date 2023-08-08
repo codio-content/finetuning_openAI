@@ -1,0 +1,60 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3646828368",
+	"source": {
+		"name": "Fine tuning",
+		"showName": false,
+		"instructions": "**What is the benefit of fine-tuning over prompt design in OpenAI API?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c57cbc45-5363-d8de-7719-544797a4cad3",
+				"correct": false,
+				"answer": "Fine-tuning provides higher-quality results than prompt design."
+			},
+			{
+				"_id": "3b04acdb-1be0-2cd7-233f-def99c318130",
+				"correct": false,
+				"answer": "Fine-tuning allows for shorter prompts and therefore less token usage."
+			},
+			{
+				"_id": "3e23a597-3054-9156-0f9c-b7abdb92a03b",
+				"correct": false,
+				"answer": "Fine-tuning reduces latency in API requests."
+			},
+			{
+				"_id": "848f28ac-016c-2a67-5417-f965984f6117",
+				"correct": true,
+				"answer": "Fine-tuning allows training on more examples than can fit in a prompt, leading to better results on a wide range of tasks."
+			}
+		],
+		"guidance": "Fine-tuning allows training on more examples than can fit in a prompt, leading to better results on a wide range of tasks.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

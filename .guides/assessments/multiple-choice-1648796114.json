@@ -1,0 +1,57 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1648796114",
+	"source": {
+		"name": "File Upload(OpenAi)",
+		"showName": false,
+		"instructions": "The contents of your file that you upload do not have to be an expected JSONL format. ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6d9c79ae-bcd4-9402-f9ee-4cc96ae69326",
+				"correct": false,
+				"answer": "True"
+			},
+			{
+				"_id": "1425c6a6-8d2a-7a26-d338-4eea76dded43",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "In our example, it will generate an error if the file does not have the expected JSONL format. It can be a `.txt` file but must be in a json format.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"file.py",
+				"my_document.txt"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "file.py"
+				},
+				{
+					"type": "file",
+					"content": "my_document.txt"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

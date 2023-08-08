@@ -1,0 +1,45 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-993466317",
+	"source": {
+		"name": "Few-shot learning",
+		"showName": false,
+		"instructions": "**True or False:**\nFew-shot learning refers to the process where GPT-3 guesses the task you are trying to perform based on a few examples.\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1cc17c38-260a-7cc5-423c-462caadcd6ee",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "0ba65015-d8fc-0433-15a1-109a333faa13",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": " Few-shot learning is a concept in machine learning where the model learns from a small number of examples (the \"few shots\"). In the context of GPT-3, if the model is provided with a prompt and a few examples, it can often infer the task to be performed and generate a completion based on that.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

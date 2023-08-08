@@ -1,0 +1,24 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-ea75",
+		"Customizing-GPT-3-c957",
+		"Fine-Tuning-063e",
+		"Preparing-training--e06c",
+		"Using-our-fine-tuned-model-9e9f",
+		"Files-1a3d",
+		"Coding-Exercise-9f1c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "OpenAi Project copy",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}
